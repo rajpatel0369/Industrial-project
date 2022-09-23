@@ -262,7 +262,7 @@ header{
 {
     .upper-wrap-grid .info h4 a
     {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 25px;
         width: 266px;
     }
@@ -270,7 +270,7 @@ header{
 @media(max-width: 375px)
 {
     .upper-wrap-grid .info h4 a{
-        width: 183px;
+        width: 234px;
         height: 90px;
     }
 }
