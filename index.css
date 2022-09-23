@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+ body{
+    overflow-x: hidden !important;
+} 
 html{
     margin: 0;
     padding: 0;
@@ -259,7 +262,7 @@ header{
 {
     .upper-wrap-grid .info h4 a
     {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 25px;
         width: 266px;
     }
@@ -267,7 +270,7 @@ header{
 @media(max-width: 375px)
 {
     .upper-wrap-grid .info h4 a{
-        width: 234px;
+        width: 183px;
         height: 90px;
     }
 }
