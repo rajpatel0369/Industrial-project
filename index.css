@@ -227,7 +227,7 @@ header{
     grid-template-columns: 1fr 4fr ;
     grid-gap: 20px;
 }
-.upper-wrap-grid .info a{
+.upper-wrap-grid .info h4 a{
     font-size: 24px;
     font-weight: 700;
     display: block;
@@ -238,48 +238,16 @@ header{
     color: black;
     transition: 0.4s ease-in-out;
 }
-.upper-wrap-grid .info a:hover{
+.upper-wrap-grid .info h4 a:hover{
     color: #ff7200;
 }
-@media(max-width:990px)
+
+@media(max-width:600px)
 {
     .upper-wrap-grid .info h4 a
     {
         font-size: 20px;
-        line-height: 25px;
-        width: 395px;
-    }
-}
-@media(max-width:765px)
-{
-    .upper-wrap-grid .info h4 a
-    {
-        font-size: 20px;
-        line-height: 25px;
-        width: 368px;
-    }
-}
-@media(max-width:500px)
-{
-    .upper-wrap-grid .info h4 a
-    {
-        font-size: 20px;
-        line-height: 25px;
-        width: 266px;
-    }
-}
-@media(max-width: 375px)
-{
-    .upper-wrap-grid .info h4 a{
-        width: 205px;
-        height: 70px;
-    }
-}
-@media(max-width: 350px)
-{
-    .upper-wrap-grid .info h4 a{
-        width: 140px;
-        height: 90px;
+        line-height: 30px;
     }
 }
 .img-border{
