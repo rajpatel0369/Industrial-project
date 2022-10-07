@@ -73,6 +73,7 @@ header{
 @media (max-width: 415px)
 {
     .banner{
+        width: 100%;
         min-height: 400px;
     }
 }
